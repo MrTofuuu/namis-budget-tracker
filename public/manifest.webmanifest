@@ -1,0 +1,22 @@
+{
+    "icons": [
+      {
+        "src": "icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }, 
+      {
+        "src": "icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "name": "Namis PWA Budget Tracker",
+    "short_name": "Budget PWA",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "/",
+    "description": "A progressive web app budget tracker that can be used even when the user is offline",
+    "background_color": "#01579b",
+    "theme_color": "#ffffff"
+  }
