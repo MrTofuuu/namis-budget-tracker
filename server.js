@@ -15,7 +15,8 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost/namis-budget-tracker", 
+mongoose.connect(
+  process.env.MONGODB_URI ||"mongodb://localhost/namis-budget-tracker", 
 {
     useNewUrlParser: true,
     useUnifiedTopology: true,
